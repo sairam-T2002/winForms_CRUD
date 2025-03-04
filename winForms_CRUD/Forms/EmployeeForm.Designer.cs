@@ -44,7 +44,7 @@ partial class EmployeeForm
         // 
         label1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
         label1.AutoSize = true;
-        label1.Location = new Point(156, 52);
+        label1.Location = new Point(140, 43);
         label1.Name = "label1";
         label1.Size = new Size(42, 15);
         label1.TabIndex = 0;
@@ -53,26 +53,26 @@ partial class EmployeeForm
         // nameTextBox
         // 
         nameTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-        nameTextBox.Location = new Point(276, 46);
+        nameTextBox.Location = new Point(260, 37);
         nameTextBox.Margin = new Padding(3, 2, 3, 2);
         nameTextBox.Name = "nameTextBox";
-        nameTextBox.Size = new Size(219, 23);
+        nameTextBox.Size = new Size(213, 23);
         nameTextBox.TabIndex = 1;
         // 
         // designationTextBox
         // 
         designationTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-        designationTextBox.Location = new Point(276, 90);
+        designationTextBox.Location = new Point(260, 81);
         designationTextBox.Margin = new Padding(3, 2, 3, 2);
         designationTextBox.Name = "designationTextBox";
-        designationTextBox.Size = new Size(219, 23);
+        designationTextBox.Size = new Size(213, 23);
         designationTextBox.TabIndex = 3;
         // 
         // label2
         // 
         label2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
         label2.AutoSize = true;
-        label2.Location = new Point(156, 95);
+        label2.Location = new Point(140, 86);
         label2.Name = "label2";
         label2.Size = new Size(73, 15);
         label2.TabIndex = 2;
@@ -82,7 +82,7 @@ partial class EmployeeForm
         // 
         label3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
         label3.AutoSize = true;
-        label3.Location = new Point(156, 139);
+        label3.Location = new Point(140, 130);
         label3.Name = "label3";
         label3.Size = new Size(91, 15);
         label3.TabIndex = 4;
@@ -91,17 +91,17 @@ partial class EmployeeForm
         // salaryTextBox
         // 
         salaryTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-        salaryTextBox.Location = new Point(276, 178);
+        salaryTextBox.Location = new Point(260, 169);
         salaryTextBox.Margin = new Padding(3, 2, 3, 2);
         salaryTextBox.Name = "salaryTextBox";
-        salaryTextBox.Size = new Size(219, 23);
+        salaryTextBox.Size = new Size(213, 23);
         salaryTextBox.TabIndex = 7;
         // 
         // label4
         // 
         label4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
         label4.AutoSize = true;
-        label4.Location = new Point(156, 184);
+        label4.Location = new Point(140, 175);
         label4.Name = "label4";
         label4.Size = new Size(41, 15);
         label4.TabIndex = 6;
@@ -110,16 +110,16 @@ partial class EmployeeForm
         // dateOfJoining
         // 
         dateOfJoining.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-        dateOfJoining.Location = new Point(276, 135);
+        dateOfJoining.Location = new Point(260, 126);
         dateOfJoining.Margin = new Padding(3, 2, 3, 2);
         dateOfJoining.Name = "dateOfJoining";
-        dateOfJoining.Size = new Size(219, 23);
+        dateOfJoining.Size = new Size(213, 23);
         dateOfJoining.TabIndex = 8;
         // 
         // AddOrUpdate
         // 
         AddOrUpdate.Anchor = AnchorStyles.Left;
-        AddOrUpdate.Location = new Point(156, 225);
+        AddOrUpdate.Location = new Point(140, 216);
         AddOrUpdate.Margin = new Padding(3, 2, 3, 2);
         AddOrUpdate.Name = "AddOrUpdate";
         AddOrUpdate.Size = new Size(160, 32);
@@ -131,7 +131,7 @@ partial class EmployeeForm
         // Cancel
         // 
         Cancel.Anchor = AnchorStyles.Right;
-        Cancel.Location = new Point(335, 225);
+        Cancel.Location = new Point(313, 216);
         Cancel.Margin = new Padding(3, 2, 3, 2);
         Cancel.Name = "Cancel";
         Cancel.Size = new Size(160, 32);
@@ -144,7 +144,7 @@ partial class EmployeeForm
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
-        ClientSize = new Size(625, 288);
+        ClientSize = new Size(619, 288);
         Controls.Add(Cancel);
         Controls.Add(AddOrUpdate);
         Controls.Add(dateOfJoining);

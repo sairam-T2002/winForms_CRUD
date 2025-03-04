@@ -104,7 +104,7 @@ partial class LandingForm
         Search.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
         Search.Location = new Point(10, 89);
         Search.Name = "Search";
-        Search.Size = new Size(330, 23);
+        Search.Size = new Size(270, 23);
         Search.TabIndex = 5;
         Search.KeyUp += Search_KeyDown;
         // 
