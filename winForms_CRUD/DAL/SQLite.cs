@@ -1,16 +1,17 @@
 ﻿using System.Data;
 using System.Data.SQLite;
+using winForms_CRUD.DAL.Interfaces;
 
 namespace winForms_CRUD.DAL
 {
-    public class SQLiteWrapper : ISQLite
+    public class SQLiteWrapper : IDAL
     {
         private readonly string _connectionString;
         private readonly string _dbPath;
 
         public SQLiteWrapper()
         {
-            _dbPath = $"{AppContext.BaseDirectory}App_Data\\appData.sqlite";
+            _dbPath = $"{AppDomain.CurrentDomain.BaseDirectory}App_Data\\appData.sqlite";
             _connectionString = $"Data Source={_dbPath};Version=3;";
             EnsureFileExist();
         }
