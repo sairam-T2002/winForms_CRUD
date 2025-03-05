@@ -75,7 +75,7 @@ public class EmployeeRepo : IEmployeeRepo
         }
         catch (Exception ex)
         {
-            MessageBox.Show(ex.Message, $"Exception in {nameof(InsertEmployee)}");
+            MessageBox.Show(ex.Message, $"Exception in {nameof(UpdateEmployee)}");
             return false;
         }
     }
@@ -122,7 +122,7 @@ public class EmployeeRepo : IEmployeeRepo
         }
         catch (Exception ex)
         {
-            MessageBox.Show(ex.Message, $"Exception in {nameof(GetEmployees)}");
+            MessageBox.Show(ex.Message, $"Exception in {nameof(GetEmployeesByName)}");
             return output;
         }
     }
